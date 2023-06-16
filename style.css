@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+  --main-color: #8294C4;
+  --second-color: #ACB1D6;
+  --clock-color: #537188;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Orbitron', sans-serif;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(10deg, var(--main-color), var(--second-color));
+}
+
+.clock-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #fff;
+  font-size: 26px;
+  max-width: 400px;
+  padding: 40px;
+  margin-top: 8px;
+  border-radius: 8px;
+  background: var(--clock-color);
+}
+
+h1 {
+  color: var(--clock-color)
+}
